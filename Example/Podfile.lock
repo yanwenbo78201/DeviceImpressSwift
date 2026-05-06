@@ -1,0 +1,16 @@
+PODS:
+  - DeviceImpressSwift (0.1.0)
+
+DEPENDENCIES:
+  - DeviceImpressSwift (from `../`)
+
+EXTERNAL SOURCES:
+  DeviceImpressSwift:
+    :path: "../"
+
+SPEC CHECKSUMS:
+  DeviceImpressSwift: 92f33b71a7faaf0215ec74b4a34001f78f3d3c8f
+
+PODFILE CHECKSUM: 848b93a13eb8b59b0d8fb5300c6e1872285bfd65
+
+COCOAPODS: 1.16.2

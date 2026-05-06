@@ -1,5 +1,4 @@
 import XCTest
-import DeviceImpressSwift
 
 class Tests: XCTestCase {
     

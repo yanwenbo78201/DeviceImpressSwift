@@ -1,0 +1,6 @@
+framework module DeviceImpressSwift {
+  umbrella header "DeviceImpressSwift-umbrella.h"
+
+  export *
+  module * { export * }
+}

@@ -1,0 +1,22 @@
+{
+  "name": "DeviceImpressSwift",
+  "version": "0.1.0",
+  "summary": "A short description of DeviceImpressSwift.",
+  "description": "TODO: Add long description of the pod here.",
+  "homepage": "https://github.com/crazyLuobo/DeviceImpressSwift",
+  "license": {
+    "type": "MIT",
+    "file": "LICENSE"
+  },
+  "authors": {
+    "crazyLuobo": "yanwenbo_78201@163.com"
+  },
+  "source": {
+    "git": "https://github.com/crazyLuobo/DeviceImpressSwift.git",
+    "tag": "0.1.0"
+  },
+  "platforms": {
+    "ios": "14.0"
+  },
+  "source_files": "DeviceImpressSwift/Classes/**/*"
+}
