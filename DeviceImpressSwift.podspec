@@ -63,6 +63,10 @@ TODO: Add long description of the pod here.
     device.source_files = 'DeviceImpressSwift/Classes/Device/**/*'
     device.frameworks = 'UIKit', 'CoreTelephony', 'AppTrackingTransparency', 'AdSupport'
   end
+  s.subspec 'Impress' do |impress|
+      impress.source_files = 'DeviceImpressSwift/Classes/Impress/**/*'
+      impress.frameworks = 'UIKit'
+  end
 
   s.frameworks = 'UIKit', 'CoreTelephony', 'AppTrackingTransparency', 'AdSupport'
 end

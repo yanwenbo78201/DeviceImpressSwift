@@ -19,7 +19,7 @@
     "ios": "14.0"
   },
   "swift_versions": "5.0",
-  "source_files": "SwiftSystemService/Classes/SystemService.swift",
+  "source_files": "DeviceImpressSwift/Classes/SystemService.swift",
   "frameworks": [
     "UIKit",
     "CoreTelephony",
@@ -29,7 +29,7 @@
   "subspecs": [
     {
       "name": "Network",
-      "source_files": "SwiftSystemService/Classes/Network/**/*",
+      "source_files": "DeviceImpressSwift/Classes/Network/**/*",
       "frameworks": [
         "UIKit",
         "CoreTelephony",
@@ -38,28 +38,33 @@
     },
     {
       "name": "Broken",
-      "source_files": "SwiftSystemService/Classes/Broken/**/*",
+      "source_files": "DeviceImpressSwift/Classes/Broken/**/*",
       "frameworks": "UIKit"
     },
     {
       "name": "Storage",
-      "source_files": "SwiftSystemService/Classes/Storage/**/*",
+      "source_files": "DeviceImpressSwift/Classes/Storage/**/*",
       "frameworks": "UIKit"
     },
     {
       "name": "Time",
-      "source_files": "SwiftSystemService/Classes/Time/**/*",
+      "source_files": "DeviceImpressSwift/Classes/Time/**/*",
       "frameworks": "UIKit"
     },
     {
       "name": "Device",
-      "source_files": "SwiftSystemService/Classes/Device/**/*",
+      "source_files": "DeviceImpressSwift/Classes/Device/**/*",
       "frameworks": [
         "UIKit",
         "CoreTelephony",
         "AppTrackingTransparency",
         "AdSupport"
       ]
+    },
+    {
+      "name": "Impress",
+      "source_files": "DeviceImpressSwift/Classes/Impress/**/*",
+      "frameworks": "UIKit"
     }
   ],
   "swift_version": "5.0"
