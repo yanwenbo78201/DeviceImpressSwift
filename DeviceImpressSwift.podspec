@@ -29,14 +29,40 @@ TODO: Add long description of the pod here.
   # s.social_media_url = 'https://twitter.com/<TWITTER_USERNAME>'
 
   s.ios.deployment_target = '14.0'
+  s.swift_version = '5.0'
 
   s.source_files = 'DeviceImpressSwift/Classes/**/*'
   
-  # s.resource_bundles = {
-  #   'DeviceImpressSwift' => ['DeviceImpressSwift/Assets/*.png']
-  # }
+    # 仅入口放在根 spec，避免与各 subspec 目录下的源码重复编译。
+  s.source_files = 'SwiftSystemService/Classes/SystemService.swift'
 
-  # s.public_header_files = 'Pod/Classes/**/*.h'
-  # s.frameworks = 'UIKit', 'MapKit'
-  # s.dependency 'AFNetworking', '~> 2.3'
+  # `pod 'SwiftSystemService'` 默认依赖全部 subspec；也可只选其一，例如 `pod 'SwiftSystemService/Network'`。
+  # 勿将 .swift 写入 public_header_files，否则 CocoaPods 会生成错误的 umbrella（#import "*.swift"）。
+
+  s.subspec 'Network' do |network|
+    network.source_files = 'SwiftSystemService/Classes/Network/**/*'
+    network.frameworks = 'UIKit', 'CoreTelephony', 'AppTrackingTransparency'
+  end
+
+  s.subspec 'Broken' do |broken|
+    broken.source_files = 'SwiftSystemService/Classes/Broken/**/*'
+    broken.frameworks = 'UIKit'
+  end
+
+  s.subspec 'Storage' do |storage|
+    storage.source_files = 'SwiftSystemService/Classes/Storage/**/*'
+    storage.frameworks = 'UIKit'
+  end
+
+  s.subspec 'Time' do |time|
+    time.source_files = 'SwiftSystemService/Classes/Time/**/*'
+    time.frameworks = 'UIKit'
+  end
+
+  s.subspec 'Device' do |device|
+    device.source_files = 'SwiftSystemService/Classes/Device/**/*'
+    device.frameworks = 'UIKit', 'CoreTelephony', 'AppTrackingTransparency', 'AdSupport'
+  end
+
+  s.frameworks = 'UIKit', 'CoreTelephony', 'AppTrackingTransparency', 'AdSupport'
 end
