@@ -34,33 +34,33 @@ TODO: Add long description of the pod here.
   s.source_files = 'DeviceImpressSwift/Classes/**/*'
   
     # 仅入口放在根 spec，避免与各 subspec 目录下的源码重复编译。
-  s.source_files = 'SwiftSystemService/Classes/SystemService.swift'
+  s.source_files = 'DeviceImpressSwift/Classes/SystemService.swift'
 
-  # `pod 'SwiftSystemService'` 默认依赖全部 subspec；也可只选其一，例如 `pod 'SwiftSystemService/Network'`。
+  # `pod 'DeviceImpressSwift'` 默认依赖全部 subspec；也可只选其一，例如 `pod 'DeviceImpressSwift/Network'`。
   # 勿将 .swift 写入 public_header_files，否则 CocoaPods 会生成错误的 umbrella（#import "*.swift"）。
 
   s.subspec 'Network' do |network|
-    network.source_files = 'SwiftSystemService/Classes/Network/**/*'
+    network.source_files = 'DeviceImpressSwift/Classes/Network/**/*'
     network.frameworks = 'UIKit', 'CoreTelephony', 'AppTrackingTransparency'
   end
 
   s.subspec 'Broken' do |broken|
-    broken.source_files = 'SwiftSystemService/Classes/Broken/**/*'
+    broken.source_files = 'DeviceImpressSwift/Classes/Broken/**/*'
     broken.frameworks = 'UIKit'
   end
 
   s.subspec 'Storage' do |storage|
-    storage.source_files = 'SwiftSystemService/Classes/Storage/**/*'
+    storage.source_files = 'DeviceImpressSwift/Classes/Storage/**/*'
     storage.frameworks = 'UIKit'
   end
 
   s.subspec 'Time' do |time|
-    time.source_files = 'SwiftSystemService/Classes/Time/**/*'
+    time.source_files = 'DeviceImpressSwift/Classes/Time/**/*'
     time.frameworks = 'UIKit'
   end
 
   s.subspec 'Device' do |device|
-    device.source_files = 'SwiftSystemService/Classes/Device/**/*'
+    device.source_files = 'DeviceImpressSwift/Classes/Device/**/*'
     device.frameworks = 'UIKit', 'CoreTelephony', 'AppTrackingTransparency', 'AdSupport'
   end
 

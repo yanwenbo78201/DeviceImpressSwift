@@ -78,10 +78,13 @@ pod 'DeviceImpressSwift/Device'
 ### 框架依赖
 
 本库需要以下系统框架支持：
-- **UIKit**：基础 UI 框架
-- **CoreTelephony**：网络状态检测
-- **AppTrackingTransparency**：IDFA 获取（iOS 14+）
-- **AdSupport**：IDFA 获取
+
+| 框架 | 用途 |
+|------|------|
+| **UIKit** | 基础 UI 框架 |
+| **CoreTelephony** | 网络状态检测 |
+| **AppTrackingTransparency** | IDFA 获取（iOS 14+） |
+| **AdSupport** | IDFA 获取 |
 
 ### 基本使用
 
@@ -91,12 +94,7 @@ pod 'DeviceImpressSwift/Device'
 import DeviceImpressSwift
 
 let deviceInfo = SystemService.getDeviceInfo(uuid: "your-uuid-here")
-// 返回包含所有设备信息的字典，包含以下字段：
-// uuid, screenResolution, screenWidth, screenHeight, cpuNum, ramTotal, ramCanUse
-// batteryLevel, charged, totalBootTime, totalBootTimeWake, defaultLanguage, defaultTimeZone
-// idfa, idfv, phoneMark, phoneType, systemVersions, versionCode, network
-// wifiName, wifiBssid, isvpn, lastBootTime, proxied, simulated, debugged
-// screenBrightness, cashTotal, cashCanUse, rooted
+// 返回包含所有设备信息的字典
 ```
 
 **单独使用各项服务**
@@ -119,27 +117,6 @@ let result = image.ipan_compressForUploadKilobyteRange200to600()
 if case .success(let output) = result {
     let jpegData = output.data
     let base64String = output.base64
-}
-```
-
-**网络状态检测**
-
-```swift
-let networkType = NetworkService().networkTypeDetail()  // WiFi/4G/5G/etc
-let isVPN = NetworkService().isVpn()                    // "true" or "false"
-let wifiInfo = NetworkService().wifiInfo()              // ["ssid": "...", "bssid": "..."]
-```
-
-**异步图片压缩**
-
-```swift
-ImgPressAnTool.compressForUploadKilobyteRange200to600Async(image: image) { result in
-    switch result {
-    case .success(let output):
-        print("压缩成功，大小: \(output.data.count) bytes")
-    case .failure(let error):
-        print("压缩失败: \(error)")
-    }
 }
 ```
 
@@ -219,7 +196,6 @@ ImgPressAnTool.compressForUploadKilobyteRange200to600Async(image: image) { resul
 
 - **iOS 14.0** 或更高版本
 - **Swift 5.0** 或更高版本
-- **Xcode 12.0** 或更高版本
 
 ## 示例项目
 
@@ -234,6 +210,13 @@ open DeviceImpressSwift.xcworkspace
 ## 许可证
 
 本项目基于 MIT 许可证开源，详见 [LICENSE](LICENSE) 文件。
+
+## 作者
+
+**yanwenbo78201**
+
+- 邮箱：yanwenbo_78201@163.com
+- GitHub：[https://github.com/yanwenbo78201/DeviceImpressSwift](https://github.com/yanwenbo78201/DeviceImpressSwift)
 
 ## 更新日志
 
