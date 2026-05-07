@@ -7,27 +7,27 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		095DF0274B90BE690DF1723F4EF0EF90 /* ImpressService.swift in Sources */ = {isa = PBXBuildFile; fileRef = E96632845296A60374D41D69447A69BC /* ImpressService.swift */; };
 		0E518E95357C504D54F93B99EB0C762B /* CoreTelephony.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = E285B393CC53185E284B4F6E011B8BC4 /* CoreTelephony.framework */; };
-		11EC9B219885DCC93F12E00FB5384EBF /* DeviceImpressSwift-dummy.m in Sources */ = {isa = PBXBuildFile; fileRef = 0136366998BE0F7E0505675D4EA8DCAB /* DeviceImpressSwift-dummy.m */; };
-		1988DF1890582A58E4EFF9ACC9FBE058 /* ObjcImgPressAnTool.swift in Sources */ = {isa = PBXBuildFile; fileRef = E6DE3367C292ACF83360D1282A912A43 /* ObjcImgPressAnTool.swift */; };
 		19F7DAC1AAE05EF7F165CB0A322078D4 /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 226E4408A72DA929B399B1E6015D9A54 /* Foundation.framework */; };
-		1D0F7042C527A79B355FE60ACD80D2EE /* NetworkService.swift in Sources */ = {isa = PBXBuildFile; fileRef = 19ACC2922EBD46343105C5EBB16248EC /* NetworkService.swift */; };
-		2061CB7444F1A50C9FCDC681DC77D0FB /* StorageService.swift in Sources */ = {isa = PBXBuildFile; fileRef = 7FFBFDD3FBBC301FEE8687340EDED008 /* StorageService.swift */; };
+		1DB59FC90908344B3EFB40FCA82E73D2 /* PhoneService.swift in Sources */ = {isa = PBXBuildFile; fileRef = 083427E943E1F03978E7AD43FE592A96 /* PhoneService.swift */; };
 		217F5904D94EE9CDF0AFA04B1A1E692D /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 226E4408A72DA929B399B1E6015D9A54 /* Foundation.framework */; };
+		2F571FAAC11509C5130018B492604C7A /* TimeService.swift in Sources */ = {isa = PBXBuildFile; fileRef = 71A4BCD05F11811ED87F2126614A72FE /* TimeService.swift */; };
 		3724D1FE8664ACFE00A93A9C4D3F8E30 /* Pods-DeviceImpressSwift_Example-dummy.m in Sources */ = {isa = PBXBuildFile; fileRef = 944BB8E99B8E05F22F9FBB7CA2BAFC8B /* Pods-DeviceImpressSwift_Example-dummy.m */; };
 		542479396E6AF3993157011694E2C949 /* Pods-DeviceImpressSwift_Tests-umbrella.h in Headers */ = {isa = PBXBuildFile; fileRef = C41FE7A5B3DCB256AC8CF12CA7689052 /* Pods-DeviceImpressSwift_Tests-umbrella.h */; settings = {ATTRIBUTES = (Public, ); }; };
-		64808557E255D5B5B8D94B6EF8EBF141 /* BrokenService.swift in Sources */ = {isa = PBXBuildFile; fileRef = CD7C7E17AF962524FAF515F417EA4FA9 /* BrokenService.swift */; };
-		6AAA5814C17AE5DFFC8E5F9BC53AAA7D /* DeviceService.swift in Sources */ = {isa = PBXBuildFile; fileRef = 41D3DF9159D729380EAC5F078230D77B /* DeviceService.swift */; };
+		57EB114D75CDD3BE152432C6147BE16E /* DeviceImpressSwift-dummy.m in Sources */ = {isa = PBXBuildFile; fileRef = 0136366998BE0F7E0505675D4EA8DCAB /* DeviceImpressSwift-dummy.m */; };
+		87CA2E43B824C60ED1BF20A6684250FA /* BrokenService.swift in Sources */ = {isa = PBXBuildFile; fileRef = CD7C7E17AF962524FAF515F417EA4FA9 /* BrokenService.swift */; };
+		A7495B7D1FAC6062F2DD9BDB36408470 /* DeviceService.swift in Sources */ = {isa = PBXBuildFile; fileRef = 41D3DF9159D729380EAC5F078230D77B /* DeviceService.swift */; };
 		AF835E7C62724C28FD1B21D4D29AC054 /* Pods-DeviceImpressSwift_Tests-dummy.m in Sources */ = {isa = PBXBuildFile; fileRef = 22763D93611F49B0B3F0F7FB80CF46C6 /* Pods-DeviceImpressSwift_Tests-dummy.m */; };
-		C7CDB72A5741F480AB53B37B6D95FAC4 /* PhoneService.swift in Sources */ = {isa = PBXBuildFile; fileRef = 083427E943E1F03978E7AD43FE592A96 /* PhoneService.swift */; };
+		D479F5E1D2E01ED902167947A4EFC20C /* StorageService.swift in Sources */ = {isa = PBXBuildFile; fileRef = 7FFBFDD3FBBC301FEE8687340EDED008 /* StorageService.swift */; };
 		D5DBD6857D5B0705CF756C95EFB9CB30 /* Pods-DeviceImpressSwift_Example-umbrella.h in Headers */ = {isa = PBXBuildFile; fileRef = FF506735A5438D0DABF8559F6FD2C111 /* Pods-DeviceImpressSwift_Example-umbrella.h */; settings = {ATTRIBUTES = (Public, ); }; };
-		DA5F0DEE6447EF914B1E292E9A0EFB3D /* TimeService.swift in Sources */ = {isa = PBXBuildFile; fileRef = 71A4BCD05F11811ED87F2126614A72FE /* TimeService.swift */; };
-		E2A0A14763B19BDC0390613B764C8181 /* SystemService.swift in Sources */ = {isa = PBXBuildFile; fileRef = D872947848B3E84D049E930C7E0454B4 /* SystemService.swift */; };
 		E64A166410795581695D2A1895D125F7 /* DeviceImpressSwift-umbrella.h in Headers */ = {isa = PBXBuildFile; fileRef = AF32378625A6B0467B6002EF089FA42B /* DeviceImpressSwift-umbrella.h */; settings = {ATTRIBUTES = (Public, ); }; };
 		E81CA87EB93E7AD9275AE7D59FB680AE /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 226E4408A72DA929B399B1E6015D9A54 /* Foundation.framework */; };
 		EAA71C0634AC8DCBCA84245F7C7DC00E /* AdSupport.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = F1E5E99189911024A47CA9D83EA37BB0 /* AdSupport.framework */; };
 		EDDAC6E3C4DDC94B09E958E8F9075C74 /* AppTrackingTransparency.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 403C339E8BF9E47B1C86BFAB22BDA698 /* AppTrackingTransparency.framework */; };
+		EE534BFF10A8F709598E3D8C82648DCD /* NetworkService.swift in Sources */ = {isa = PBXBuildFile; fileRef = 19ACC2922EBD46343105C5EBB16248EC /* NetworkService.swift */; };
 		EE895AD184214506E59640A20A931380 /* UIKit.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 043D1A4E62587C2EB0553056A03D9206 /* UIKit.framework */; };
+		FACB26D03C6E8DBCB89CE76CC061E105 /* SystemService.swift in Sources */ = {isa = PBXBuildFile; fileRef = D872947848B3E84D049E930C7E0454B4 /* SystemService.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -85,7 +85,7 @@
 		D872947848B3E84D049E930C7E0454B4 /* SystemService.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = SystemService.swift; path = DeviceImpressSwift/Classes/SystemService.swift; sourceTree = "<group>"; };
 		DC981F21BA2BA45394BEC904B8DCC823 /* Pods-DeviceImpressSwift_Example-acknowledgements.markdown */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text; path = "Pods-DeviceImpressSwift_Example-acknowledgements.markdown"; sourceTree = "<group>"; };
 		E285B393CC53185E284B4F6E011B8BC4 /* CoreTelephony.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = CoreTelephony.framework; path = Platforms/iPhoneOS.platform/Developer/SDKs/iPhoneOS18.0.sdk/System/Library/Frameworks/CoreTelephony.framework; sourceTree = DEVELOPER_DIR; };
-		E6DE3367C292ACF83360D1282A912A43 /* ObjcImgPressAnTool.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = ObjcImgPressAnTool.swift; path = DeviceImpressSwift/Classes/Impress/ObjcImgPressAnTool.swift; sourceTree = "<group>"; };
+		E96632845296A60374D41D69447A69BC /* ImpressService.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = ImpressService.swift; path = DeviceImpressSwift/Classes/Impress/ImpressService.swift; sourceTree = "<group>"; };
 		F0A18A3DA5628C4D925B7B3F118C68BD /* Pods-DeviceImpressSwift_Tests-Info.plist */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.plist.xml; path = "Pods-DeviceImpressSwift_Tests-Info.plist"; sourceTree = "<group>"; };
 		F1E5E99189911024A47CA9D83EA37BB0 /* AdSupport.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = AdSupport.framework; path = Platforms/iPhoneOS.platform/Developer/SDKs/iPhoneOS18.0.sdk/System/Library/Frameworks/AdSupport.framework; sourceTree = DEVELOPER_DIR; };
 		F4346975A7220699440487DC2BF1D94F /* Pods-DeviceImpressSwift_Tests.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = "Pods-DeviceImpressSwift_Tests.debug.xcconfig"; sourceTree = "<group>"; };
@@ -161,14 +161,6 @@
 			name = Products;
 			sourceTree = "<group>";
 		};
-		451019893B9D5609C55BA43B8BD28C60 /* Impress */ = {
-			isa = PBXGroup;
-			children = (
-				E6DE3367C292ACF83360D1282A912A43 /* ObjcImgPressAnTool.swift */,
-			);
-			name = Impress;
-			sourceTree = "<group>";
-		};
 		48857A22E972DBCBCCF0E3AABA2016A8 /* Broken */ = {
 			isa = PBXGroup;
 			children = (
@@ -183,7 +175,7 @@
 				D872947848B3E84D049E930C7E0454B4 /* SystemService.swift */,
 				48857A22E972DBCBCCF0E3AABA2016A8 /* Broken */,
 				BEAF53F1C4ABC084CCEE3CE22C939F99 /* Device */,
-				451019893B9D5609C55BA43B8BD28C60 /* Impress */,
+				5B5C4CA52F6B088C1231E17E868BF68E /* Impress */,
 				86A012D6661C8B6006DD28DF22B5520F /* Network */,
 				9080F5F4361A26BA0EACD6866D45E945 /* Pod */,
 				69443F3E9DA83D159024C90440EEF2AC /* Storage */,
@@ -192,6 +184,14 @@
 			);
 			name = DeviceImpressSwift;
 			path = ../..;
+			sourceTree = "<group>";
+		};
+		5B5C4CA52F6B088C1231E17E868BF68E /* Impress */ = {
+			isa = PBXGroup;
+			children = (
+				E96632845296A60374D41D69447A69BC /* ImpressService.swift */,
+			);
+			name = Impress;
 			sourceTree = "<group>";
 		};
 		69443F3E9DA83D159024C90440EEF2AC /* Storage */ = {
@@ -362,7 +362,7 @@
 			buildConfigurationList = EC6926E094142FBF0933F6E9E20C8CA4 /* Build configuration list for PBXNativeTarget "DeviceImpressSwift" */;
 			buildPhases = (
 				477D46ABC45D7EF927C533AA328E0118 /* Headers */,
-				615E81CBFBB562CF8D19FF0757E3E3C3 /* Sources */,
+				609B3B400FDB86E8D3FED0AF7C7DB910 /* Sources */,
 				40598EB4A3C15E7990BAFBFF722C9640 /* Frameworks */,
 				22F189361B559148DDE5FBA5AC6E888C /* Resources */,
 			);
@@ -458,19 +458,19 @@
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
-		615E81CBFBB562CF8D19FF0757E3E3C3 /* Sources */ = {
+		609B3B400FDB86E8D3FED0AF7C7DB910 /* Sources */ = {
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				64808557E255D5B5B8D94B6EF8EBF141 /* BrokenService.swift in Sources */,
-				11EC9B219885DCC93F12E00FB5384EBF /* DeviceImpressSwift-dummy.m in Sources */,
-				6AAA5814C17AE5DFFC8E5F9BC53AAA7D /* DeviceService.swift in Sources */,
-				1D0F7042C527A79B355FE60ACD80D2EE /* NetworkService.swift in Sources */,
-				1988DF1890582A58E4EFF9ACC9FBE058 /* ObjcImgPressAnTool.swift in Sources */,
-				C7CDB72A5741F480AB53B37B6D95FAC4 /* PhoneService.swift in Sources */,
-				2061CB7444F1A50C9FCDC681DC77D0FB /* StorageService.swift in Sources */,
-				E2A0A14763B19BDC0390613B764C8181 /* SystemService.swift in Sources */,
-				DA5F0DEE6447EF914B1E292E9A0EFB3D /* TimeService.swift in Sources */,
+				87CA2E43B824C60ED1BF20A6684250FA /* BrokenService.swift in Sources */,
+				57EB114D75CDD3BE152432C6147BE16E /* DeviceImpressSwift-dummy.m in Sources */,
+				A7495B7D1FAC6062F2DD9BDB36408470 /* DeviceService.swift in Sources */,
+				095DF0274B90BE690DF1723F4EF0EF90 /* ImpressService.swift in Sources */,
+				EE534BFF10A8F709598E3D8C82648DCD /* NetworkService.swift in Sources */,
+				1DB59FC90908344B3EFB40FCA82E73D2 /* PhoneService.swift in Sources */,
+				D479F5E1D2E01ED902167947A4EFC20C /* StorageService.swift in Sources */,
+				FACB26D03C6E8DBCB89CE76CC061E105 /* SystemService.swift in Sources */,
+				2F571FAAC11509C5130018B492604C7A /* TimeService.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};

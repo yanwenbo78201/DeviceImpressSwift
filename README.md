@@ -198,7 +198,7 @@ let isJailbroken = brokenService.brokenCrackStatus()  // "true" or "false"
 import DeviceImpressSwift
 
 // 压缩图片到 200-600KB
-let result = ImgPressAnTool.compressForUpload200to600(image: image)
+let result = ImpressService.compressForUpload200to600(image: image)
 
 switch result {
 case .success(let output):
@@ -220,7 +220,7 @@ case .failure(let error):
 **异步压缩**
 
 ```swift
-ImgPressAnTool.compressForUploadKilobyteRange200to600Async(image: image) { result in
+ImpressService.compressForUploadKilobyteRange200to600Async(image: image) { result in
     DispatchQueue.main.async {
         switch result {
         case .success(let output):
@@ -331,11 +331,12 @@ if case .success(let output) = result {
 
 | 方法 | 返回值 | 说明 |
 |------|--------|------|
-| `compressForUpload200to600(image:)` | `Result<ImgPressAnOutput, ImgPressAnError>` | 压缩图片到 200-600KB |
-| `compressForUpload200to600Optional(image:)` | `ImgPressAnOutput?` | 可选版本压缩 |
+| `compressForUpload200to600(image:)` | `Result<ImpressOutput, ImpressError>` | 压缩图片到 200-600KB |
+| `compressForUpload200to600Optional(image:)` | `ImpressOutput?` | 可选版本压缩 |
 | `compressForUploadKilobyteRange200to600Async(image:completion:)` | `Void` | 异步压缩 |
+| `compressForUpload200to600Async(image:completion:)` | `Void` | Objective-C 兼容的异步压缩 |
 
-### ImgPressAnOutput
+### ImpressOutput
 
 | 属性 | 类型 | 说明 |
 |------|------|------|
@@ -343,11 +344,11 @@ if case .success(let output) = result {
 | `image` | `UIImage` | 压缩后的图片对象 |
 | `base64` | `String` | Base64 编码字符串（懒加载，线程安全） |
 
-### ImgPressAnError
+### ImpressError
 
 | 错误类型 | 说明 |
 |----------|------|
-| `invalidKBRange(minKB:maxKB:)` | 无效的 KB 范围 |
+| `invalidKBRange` | 无效的 KB 范围 |
 | `unableToEncode` | 无法编码图片 |
 | `unableToReachTarget` | 无法达到目标压缩大小 |
 
