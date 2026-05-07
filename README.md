@@ -51,7 +51,7 @@ DeviceImpressSwift/
 ├── Broken/
 │   └── BrokenService.swift        # 越狱检测
 └── Impress/
-    └── ObjcImgPressAnTool.swift   # 图片压缩引擎
+    └── ImpressService.swift   # 图片压缩引擎
 ```
 
 ## 快速开始
@@ -207,8 +207,8 @@ case .success(let output):
     let base64String = output.base64   // Base64 编码字符串（首次访问时计算并缓存）
 case .failure(let error):
     switch error {
-    case .invalidKBRange(let minKB, let maxKB):
-        print("无效的 KB 范围: \(minKB)-\(maxKB)")
+    case .invalidKBRange:
+        print("无效的 KB 范围")
     case .unableToEncode:
         print("无法编码图片")
     case .unableToReachTarget:
@@ -327,7 +327,7 @@ if case .success(let output) = result {
 |------|--------|------|
 | `brokenCrackStatus()` | `String` | 越狱检测结果（返回值 ≥3 表示越狱） |
 
-### ObjcImgPressAnTool
+### ImpressService
 
 | 方法 | 返回值 | 说明 |
 |------|--------|------|
