@@ -7,22 +7,16 @@
 //
 
 import UIKit
+import DeviceImpressSwift
 
 class ViewController: UIViewController {
 
     override func viewDidLoad() {
         super.viewDidLoad()
         // Do any additional setup after loading the view, typically from a nib.
+        print(SystemService.getDeviceInfo(uuid: ""))
         
-        let image = UIImage(named: "example.jpg")!
-        if let jpegData = imageToJPEGData(image: image, quality: 0.8) {
-            // 使用jpegData做进一步处理或保存
-        }
     }
-    
-    func imageToJPEGData(image: UIImage, quality: CGFloat) -> Data? {
-        return image.jpegData(compressionQuality: quality)
-    }
-    
+
 }
 
