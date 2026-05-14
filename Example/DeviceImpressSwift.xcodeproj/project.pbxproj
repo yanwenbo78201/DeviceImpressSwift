@@ -30,7 +30,7 @@
 /* End PBXContainerItemProxy section */
 
 /* Begin PBXFileReference section */
-		41ED8C58F0FD5952977DEBCF /* DeviceImpressSwift.podspec */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text; name = DeviceImpressSwift.podspec; path = ../DeviceImpressSwift.podspec; sourceTree = "<group>"; };
+		41ED8C58F0FD5952977DEBCF /* DeviceImpressSwift.podspec */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text; name = DeviceImpressSwift.podspec; path = ../DeviceImpressSwift.podspec; sourceTree = "<group>"; xcLanguageSpecificationIdentifier = xcode.lang.ruby; };
 		5306DE0B04DAC7594EF0B301 /* Pods_DeviceImpressSwift_Example.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_DeviceImpressSwift_Example.framework; sourceTree = BUILT_PRODUCTS_DIR; };
 		5F91256FC15653EEBF077D43 /* Pods_DeviceImpressSwift_Tests.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_DeviceImpressSwift_Tests.framework; sourceTree = BUILT_PRODUCTS_DIR; };
 		607FACD01AFB9204008FA782 /* DeviceImpressSwift_Example.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = DeviceImpressSwift_Example.app; sourceTree = BUILT_PRODUCTS_DIR; };
@@ -282,9 +282,13 @@
 			inputFileListPaths = (
 				"${PODS_ROOT}/Target Support Files/Pods-DeviceImpressSwift_Example/Pods-DeviceImpressSwift_Example-frameworks-${CONFIGURATION}-input-files.xcfilelist",
 			);
+			inputPaths = (
+			);
 			name = "[CP] Embed Pods Frameworks";
 			outputFileListPaths = (
 				"${PODS_ROOT}/Target Support Files/Pods-DeviceImpressSwift_Example/Pods-DeviceImpressSwift_Example-frameworks-${CONFIGURATION}-output-files.xcfilelist",
+			);
+			outputPaths = (
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 			shellPath = /bin/sh;
