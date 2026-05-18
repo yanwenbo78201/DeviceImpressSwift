@@ -1,17 +1,17 @@
 PODS:
-  - DeviceImpressSwift (0.1.0):
-    - DeviceImpressSwift/Broken (= 0.1.0)
-    - DeviceImpressSwift/Device (= 0.1.0)
-    - DeviceImpressSwift/Impress (= 0.1.0)
-    - DeviceImpressSwift/Network (= 0.1.0)
-    - DeviceImpressSwift/Storage (= 0.1.0)
-    - DeviceImpressSwift/Time (= 0.1.0)
-  - DeviceImpressSwift/Broken (0.1.0)
-  - DeviceImpressSwift/Device (0.1.0)
-  - DeviceImpressSwift/Impress (0.1.0)
-  - DeviceImpressSwift/Network (0.1.0)
-  - DeviceImpressSwift/Storage (0.1.0)
-  - DeviceImpressSwift/Time (0.1.0)
+  - DeviceImpressSwift (0.1.1):
+    - DeviceImpressSwift/Broken (= 0.1.1)
+    - DeviceImpressSwift/Device (= 0.1.1)
+    - DeviceImpressSwift/Impress (= 0.1.1)
+    - DeviceImpressSwift/Network (= 0.1.1)
+    - DeviceImpressSwift/Storage (= 0.1.1)
+    - DeviceImpressSwift/Time (= 0.1.1)
+  - DeviceImpressSwift/Broken (0.1.1)
+  - DeviceImpressSwift/Device (0.1.1)
+  - DeviceImpressSwift/Impress (0.1.1)
+  - DeviceImpressSwift/Network (0.1.1)
+  - DeviceImpressSwift/Storage (0.1.1)
+  - DeviceImpressSwift/Time (0.1.1)
 
 DEPENDENCIES:
   - DeviceImpressSwift (from `../`)
@@ -21,7 +21,7 @@ EXTERNAL SOURCES:
     :path: "../"
 
 SPEC CHECKSUMS:
-  DeviceImpressSwift: 396400811d26d9dcafd750f1face635843a84e48
+  DeviceImpressSwift: 985bf73a09739624276abfa5a2c188c324d82813
 
 PODFILE CHECKSUM: 848b93a13eb8b59b0d8fb5300c6e1872285bfd65
 
