@@ -10,7 +10,9 @@ import UIKit
 
 @objcMembers
 public class SystemService: NSObject {
-    public static func getDeviceInfo(uuid:String)->[String:Any]{
+    
+    /// 异步获取设备信息（包含 WiFi 信息）
+    @objc public static func getDeviceInfoAsync(uuid: String, completion: @escaping ([String: Any]) -> Void) {
         let systemMemory = StorageService()
         let systemTime = TimeService()
         let systemNetwork = NetworkService()
@@ -38,11 +40,6 @@ public class SystemService: NSObject {
         leaveBaseInfo["systemVersions"] = UIDevice.current.systemVersion
         leaveBaseInfo["versionCode"] = (Bundle.main.infoDictionary?["CFBundleShortVersionString"] as? String) ?? infoEmpty
         leaveBaseInfo["network"] = systemNetwork.networkTypeNumber()
-        let currentSeameWifiDict = systemNetwork.wifiInfo()
-        let currentWifiSSID = currentSeameWifiDict?["ssid"] ?? infoEmpty
-        let currentWifiBSSID = currentSeameWifiDict?["bssid"] ?? infoEmpty
-        leaveBaseInfo["wifiName"] = currentWifiSSID
-        leaveBaseInfo["wifiBssid"] = currentWifiBSSID
         leaveBaseInfo["isvpn"] = systemNetwork.isVpn()
         leaveBaseInfo["lastBootTime"] = systemTime.lastBootTime()
         leaveBaseInfo["proxied"] = systemNetwork.proxied()
@@ -52,7 +49,14 @@ public class SystemService: NSObject {
         leaveBaseInfo["cashTotal"] = systemMemory.cashTotal()
         leaveBaseInfo["cashCanUse"] = systemMemory.cashCanUse()
         leaveBaseInfo["rooted"] = BrokenService().brokenCrackStatus()
-        return leaveBaseInfo
         
+        // 异步获取 WiFi 信息
+        systemNetwork.wifiInfo { wifiInfo in
+            let currentWifiSSID = wifiInfo?["ssid"] ?? infoEmpty
+            let currentWifiBSSID = wifiInfo?["bssid"] ?? infoEmpty
+            leaveBaseInfo["wifiName"] = currentWifiSSID
+            leaveBaseInfo["wifiBssid"] = currentWifiBSSID
+            completion(leaveBaseInfo)
+        }
     }
 }

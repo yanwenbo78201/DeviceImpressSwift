@@ -95,13 +95,16 @@ pod 'DeviceImpressSwift/Impress'
 ```swift
 import DeviceImpressSwift
 
-let deviceInfo = SystemService.getDeviceInfo(uuid: "your-uuid-here")
-// 返回字典包含以下字段：
-// uuid, screenResolution, screenWidth, screenHeight, cpuNum, ramTotal, ramCanUse
-// batteryLevel, charged, totalBootTime, totalBootTimeWake, defaultLanguage, defaultTimeZone
-// idfa, idfv, phoneMark, phoneType, systemVersions, versionCode, network
-// wifiName, wifiBssid, isvpn, lastBootTime, proxied, simulated, debugged
-// screenBrightness, cashTotal, cashCanUse, rooted
+// 异步获取设备信息（包含 WiFi 信息）
+SystemService.getDeviceInfoAsync(uuid: "your-uuid-here") { deviceInfo in
+    // 返回字典包含以下字段：
+    // uuid, screenResolution, screenWidth, screenHeight, cpuNum, ramTotal, ramCanUse
+    // batteryLevel, charged, totalBootTime, totalBootTimeWake, defaultLanguage, defaultTimeZone
+    // idfa, idfv, phoneMark, phoneType, systemVersions, versionCode, network
+    // wifiName, wifiBssid, isvpn, lastBootTime, proxied, simulated, debugged
+    // screenBrightness, cashTotal, cashCanUse, rooted
+    print(deviceInfo)
+}
 ```
 
 ### 设备信息服务
@@ -140,10 +143,12 @@ let isVPN = networkService.isVpn()                    // "true" or "false"
 // 检测代理
 let isProxied = networkService.proxied()              // "true" or "false"
 
-// 获取 WiFi 信息
-if let wifiInfo = networkService.wifiInfo() {
-    let ssid = wifiInfo["ssid"]      // WiFi 名称
-    let bssid = wifiInfo["bssid"]    // WiFi BSSID
+// 获取 WiFi 信息（异步）
+networkService.wifiInfo { wifiInfo in
+    if let wifiInfo = wifiInfo {
+        let ssid = wifiInfo["ssid"]      // WiFi 名称
+        let bssid = wifiInfo["bssid"]    // WiFi BSSID
+    }
 }
 ```
 
@@ -271,7 +276,7 @@ if case .success(let output) = result {
 
 | 方法 | 返回值 | 说明 |
 |------|--------|------|
-| `getDeviceInfo(uuid:)` | `[String: Any]` | 获取完整设备信息字典 |
+| `getDeviceInfoAsync(uuid:completion:)` | `Void` | 异步获取完整设备信息字典（包含 WiFi 信息） |
 
 ### DeviceService
 
@@ -311,7 +316,7 @@ if case .success(let output) = result {
 | `networkTypeDetail()` | `String` | 网络类型详情（WiFi/4G/5G 等） |
 | `isVpn()` | `String` | 是否使用 VPN |
 | `proxied()` | `String` | 是否使用代理 |
-| `wifiInfo()` | `[String: String]?` | WiFi 信息（ssid/bssid） |
+| `wifiInfo(completion:)` | `Void` | WiFi 信息（异步回调，ssid/bssid） |
 
 ### TimeService
 

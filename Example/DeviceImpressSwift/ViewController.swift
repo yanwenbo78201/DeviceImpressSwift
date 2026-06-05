@@ -15,7 +15,12 @@ class ViewController: UIViewController {
     override func viewDidLoad() {
         super.viewDidLoad()
         // Do any additional setup after loading the view, typically from a nib.
-        print(SystemService.getDeviceInfo(uuid: ""))
+        
+        // 异步获取设备信息（包含 WiFi 信息）
+        SystemService.getDeviceInfoAsync(uuid: "") { deviceInfo in
+            print(deviceInfo)
+        }
+        
         
         ImpressService.compressForUploadKilobyteRange200to600Async(image: UIImage(named: "big.JPEG")!) { result in
             switch result {

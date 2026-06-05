@@ -18,7 +18,15 @@
 - (void)viewDidLoad {
     [super viewDidLoad];
     // Do any additional setup after loading the view.
-    NSLog(@"%@",[SystemService getDeviceInfoWithUuid:@""]);
+    
+    // 异步获取设备信息（包含 WiFi 信息）
+    [SystemService getDeviceInfoAsyncWithUuid:@"" completion:^(NSDictionary<NSString *,id> * _Nonnull deviceInfo) {
+        NSLog(@"%@", deviceInfo);
+    }];
+    
+    // 或者使用同步方法（WiFi 信息为空）
+    // NSLog(@"%@",[SystemService getDeviceInfoWithUuid:@""]);
+    
     [ImpressService compressForUpload200to600AsyncWithImage:[UIImage imageNamed:@"big.JPEG"] completion:^(ImpressOutput * _Nullable outPut, NSError * _Nullable error) {
         if (error != nil) {
             
