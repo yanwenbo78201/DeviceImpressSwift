@@ -3,6 +3,7 @@ use_frameworks!
 platform :ios, '15.0'
 
 target 'DeviceImpressSwift_Example' do
+  pod 'FYLocationObjc'
   pod 'DeviceImpressSwift', :path => '../'
 
   target 'DeviceImpressSwift_Tests' do

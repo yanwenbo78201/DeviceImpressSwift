@@ -1,2 +1,3 @@
 ${PODS_ROOT}/Target Support Files/Pods-DeviceImpressSwift_Example/Pods-DeviceImpressSwift_Example-frameworks.sh
 ${BUILT_PRODUCTS_DIR}/DeviceImpressSwift/DeviceImpressSwift.framework
+${BUILT_PRODUCTS_DIR}/FYLocationObjc/FYLocationObjc.framework

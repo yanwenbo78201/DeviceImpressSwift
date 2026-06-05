@@ -12,9 +12,15 @@ PODS:
   - DeviceImpressSwift/Network (0.1.1)
   - DeviceImpressSwift/Storage (0.1.1)
   - DeviceImpressSwift/Time (0.1.1)
+  - FYLocationObjc (0.1.1)
 
 DEPENDENCIES:
   - DeviceImpressSwift (from `../`)
+  - FYLocationObjc
+
+SPEC REPOS:
+  trunk:
+    - FYLocationObjc
 
 EXTERNAL SOURCES:
   DeviceImpressSwift:
@@ -22,7 +28,8 @@ EXTERNAL SOURCES:
 
 SPEC CHECKSUMS:
   DeviceImpressSwift: 985bf73a09739624276abfa5a2c188c324d82813
+  FYLocationObjc: d3279f1e5e029fc30919f8798a3c3b4d0c00aba0
 
-PODFILE CHECKSUM: 848b93a13eb8b59b0d8fb5300c6e1872285bfd65
+PODFILE CHECKSUM: 6d13e64b667bfe6d0769a08284fbffc267fb2bcb
 
 COCOAPODS: 1.16.2

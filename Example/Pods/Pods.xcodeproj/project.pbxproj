@@ -8,64 +8,82 @@
 
 /* Begin PBXBuildFile section */
 		095DF0274B90BE690DF1723F4EF0EF90 /* ImpressService.swift in Sources */ = {isa = PBXBuildFile; fileRef = E96632845296A60374D41D69447A69BC /* ImpressService.swift */; };
-		0E518E95357C504D54F93B99EB0C762B /* CoreTelephony.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = E285B393CC53185E284B4F6E011B8BC4 /* CoreTelephony.framework */; };
-		19F7DAC1AAE05EF7F165CB0A322078D4 /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 226E4408A72DA929B399B1E6015D9A54 /* Foundation.framework */; };
+		0E518E95357C504D54F93B99EB0C762B /* CoreTelephony.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 5754B5FC8A07DF902E2D185BCB791F11 /* CoreTelephony.framework */; };
 		1DB59FC90908344B3EFB40FCA82E73D2 /* PhoneService.swift in Sources */ = {isa = PBXBuildFile; fileRef = 083427E943E1F03978E7AD43FE592A96 /* PhoneService.swift */; };
-		217F5904D94EE9CDF0AFA04B1A1E692D /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 226E4408A72DA929B399B1E6015D9A54 /* Foundation.framework */; };
+		217F5904D94EE9CDF0AFA04B1A1E692D /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 255D7485A7C7A2324B15F03E10ACF72E /* Foundation.framework */; };
 		2F571FAAC11509C5130018B492604C7A /* TimeService.swift in Sources */ = {isa = PBXBuildFile; fileRef = 71A4BCD05F11811ED87F2126614A72FE /* TimeService.swift */; };
-		3724D1FE8664ACFE00A93A9C4D3F8E30 /* Pods-DeviceImpressSwift_Example-dummy.m in Sources */ = {isa = PBXBuildFile; fileRef = 944BB8E99B8E05F22F9FBB7CA2BAFC8B /* Pods-DeviceImpressSwift_Example-dummy.m */; };
 		542479396E6AF3993157011694E2C949 /* Pods-DeviceImpressSwift_Tests-umbrella.h in Headers */ = {isa = PBXBuildFile; fileRef = C41FE7A5B3DCB256AC8CF12CA7689052 /* Pods-DeviceImpressSwift_Tests-umbrella.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		562C9F4B9F93BA8F0540A6A54923ECAE /* FYLocationObjc-dummy.m in Sources */ = {isa = PBXBuildFile; fileRef = 518CDA8F2EE007322D09D4B29683CA48 /* FYLocationObjc-dummy.m */; };
 		57EB114D75CDD3BE152432C6147BE16E /* DeviceImpressSwift-dummy.m in Sources */ = {isa = PBXBuildFile; fileRef = 0136366998BE0F7E0505675D4EA8DCAB /* DeviceImpressSwift-dummy.m */; };
+		72BCF0A8097087F08F392A9F0533D663 /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 255D7485A7C7A2324B15F03E10ACF72E /* Foundation.framework */; };
+		74C29BFC4222D16CE324CC76050C3F23 /* Pods-DeviceImpressSwift_Example-dummy.m in Sources */ = {isa = PBXBuildFile; fileRef = 944BB8E99B8E05F22F9FBB7CA2BAFC8B /* Pods-DeviceImpressSwift_Example-dummy.m */; };
+		799D8C2E1AB2F31FB61BDCD4169EE39C /* FYLocationObjc.m in Sources */ = {isa = PBXBuildFile; fileRef = A96B8E95984C9C703400F98DCCD8C0F9 /* FYLocationObjc.m */; };
+		7D522889D1A3C0472435463E3A4BCB5E /* FYLocationObjc.h in Headers */ = {isa = PBXBuildFile; fileRef = 04C4D9EA6AC6D747699CA378889A88BA /* FYLocationObjc.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		84AB59EFE0D90ADAE932B37460DB230D /* FYLocationObjc-umbrella.h in Headers */ = {isa = PBXBuildFile; fileRef = FF1E00C678204720E57AABF5A7B1E9A7 /* FYLocationObjc-umbrella.h */; settings = {ATTRIBUTES = (Public, ); }; };
 		87CA2E43B824C60ED1BF20A6684250FA /* BrokenService.swift in Sources */ = {isa = PBXBuildFile; fileRef = CD7C7E17AF962524FAF515F417EA4FA9 /* BrokenService.swift */; };
+		9C7E8D8933A1831060852D7635ABE8EE /* CoreLocation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = EB1E44F1BFDFFD63E4068FE6C23D5B15 /* CoreLocation.framework */; };
 		A7495B7D1FAC6062F2DD9BDB36408470 /* DeviceService.swift in Sources */ = {isa = PBXBuildFile; fileRef = 41D3DF9159D729380EAC5F078230D77B /* DeviceService.swift */; };
 		AF835E7C62724C28FD1B21D4D29AC054 /* Pods-DeviceImpressSwift_Tests-dummy.m in Sources */ = {isa = PBXBuildFile; fileRef = 22763D93611F49B0B3F0F7FB80CF46C6 /* Pods-DeviceImpressSwift_Tests-dummy.m */; };
 		D479F5E1D2E01ED902167947A4EFC20C /* StorageService.swift in Sources */ = {isa = PBXBuildFile; fileRef = 7FFBFDD3FBBC301FEE8687340EDED008 /* StorageService.swift */; };
-		D5DBD6857D5B0705CF756C95EFB9CB30 /* Pods-DeviceImpressSwift_Example-umbrella.h in Headers */ = {isa = PBXBuildFile; fileRef = FF506735A5438D0DABF8559F6FD2C111 /* Pods-DeviceImpressSwift_Example-umbrella.h */; settings = {ATTRIBUTES = (Public, ); }; };
 		E64A166410795581695D2A1895D125F7 /* DeviceImpressSwift-umbrella.h in Headers */ = {isa = PBXBuildFile; fileRef = AF32378625A6B0467B6002EF089FA42B /* DeviceImpressSwift-umbrella.h */; settings = {ATTRIBUTES = (Public, ); }; };
-		E81CA87EB93E7AD9275AE7D59FB680AE /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 226E4408A72DA929B399B1E6015D9A54 /* Foundation.framework */; };
-		EAA71C0634AC8DCBCA84245F7C7DC00E /* AdSupport.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = F1E5E99189911024A47CA9D83EA37BB0 /* AdSupport.framework */; };
-		EDDAC6E3C4DDC94B09E958E8F9075C74 /* AppTrackingTransparency.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 403C339E8BF9E47B1C86BFAB22BDA698 /* AppTrackingTransparency.framework */; };
+		E81CA87EB93E7AD9275AE7D59FB680AE /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 255D7485A7C7A2324B15F03E10ACF72E /* Foundation.framework */; };
+		EAA71C0634AC8DCBCA84245F7C7DC00E /* AdSupport.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = B616F8E4061240F7BAF74A7E78B497EB /* AdSupport.framework */; };
+		EDDAC6E3C4DDC94B09E958E8F9075C74 /* AppTrackingTransparency.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 449C0F05775F42B7AE6A69689ED7F6B5 /* AppTrackingTransparency.framework */; };
 		EE534BFF10A8F709598E3D8C82648DCD /* NetworkService.swift in Sources */ = {isa = PBXBuildFile; fileRef = 19ACC2922EBD46343105C5EBB16248EC /* NetworkService.swift */; };
-		EE895AD184214506E59640A20A931380 /* UIKit.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 043D1A4E62587C2EB0553056A03D9206 /* UIKit.framework */; };
+		EE895AD184214506E59640A20A931380 /* UIKit.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 8DA04DF519C92C23C787CAA162184DC4 /* UIKit.framework */; };
+		F874EC4A4BBDABA4C5013B03B29A26E4 /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 255D7485A7C7A2324B15F03E10ACF72E /* Foundation.framework */; };
+		FAA30D3C38D72654D7A4DEE1BED3AABF /* Pods-DeviceImpressSwift_Example-umbrella.h in Headers */ = {isa = PBXBuildFile; fileRef = FF506735A5438D0DABF8559F6FD2C111 /* Pods-DeviceImpressSwift_Example-umbrella.h */; settings = {ATTRIBUTES = (Public, ); }; };
 		FACB26D03C6E8DBCB89CE76CC061E105 /* SystemService.swift in Sources */ = {isa = PBXBuildFile; fileRef = D872947848B3E84D049E930C7E0454B4 /* SystemService.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
-		D005F30FED59E0F12AB4132E7E90A3BE /* PBXContainerItemProxy */ = {
-			isa = PBXContainerItemProxy;
-			containerPortal = BFDFE7DC352907FC980B868725387E98 /* Project object */;
-			proxyType = 1;
-			remoteGlobalIDString = 8B8F0726102CB96C9E958AD51A3B2804;
-			remoteInfo = "Pods-DeviceImpressSwift_Example";
-		};
-		DB66ED30965C91FA31792C21750B635A /* PBXContainerItemProxy */ = {
+		147C4096E9F85975E9BA72A87D17A047 /* PBXContainerItemProxy */ = {
 			isa = PBXContainerItemProxy;
 			containerPortal = BFDFE7DC352907FC980B868725387E98 /* Project object */;
 			proxyType = 1;
 			remoteGlobalIDString = ECC87AF4CC377B1F4D2650416A5556E5;
 			remoteInfo = DeviceImpressSwift;
 		};
+		7EAA1007433F7D94FA20B2EEF0B0F144 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = BFDFE7DC352907FC980B868725387E98 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 8B8F0726102CB96C9E958AD51A3B2804;
+			remoteInfo = "Pods-DeviceImpressSwift_Example";
+		};
+		F63EABE1AB4C76E169D5AD7C437DFB70 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = BFDFE7DC352907FC980B868725387E98 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 854981F0ED3681026E6E961DAFE9FFBD;
+			remoteInfo = FYLocationObjc;
+		};
 /* End PBXContainerItemProxy section */
 
 /* Begin PBXFileReference section */
 		0136366998BE0F7E0505675D4EA8DCAB /* DeviceImpressSwift-dummy.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; path = "DeviceImpressSwift-dummy.m"; sourceTree = "<group>"; };
-		043D1A4E62587C2EB0553056A03D9206 /* UIKit.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = UIKit.framework; path = Platforms/iPhoneOS.platform/Developer/SDKs/iPhoneOS18.0.sdk/System/Library/Frameworks/UIKit.framework; sourceTree = DEVELOPER_DIR; };
+		04C4D9EA6AC6D747699CA378889A88BA /* FYLocationObjc.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = FYLocationObjc.h; path = FYLocationObjc/Classes/FYLocationObjc.h; sourceTree = "<group>"; };
 		04DC5E02E802B5F0245FEC003DDE15BB /* DeviceImpressSwift-Info.plist */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.plist.xml; path = "DeviceImpressSwift-Info.plist"; sourceTree = "<group>"; };
 		083427E943E1F03978E7AD43FE592A96 /* PhoneService.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = PhoneService.swift; path = DeviceImpressSwift/Classes/Device/PhoneService.swift; sourceTree = "<group>"; };
 		0E4028C7E48E05B4BB01B05974F2F88D /* Pods-DeviceImpressSwift_Example.modulemap */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.module; path = "Pods-DeviceImpressSwift_Example.modulemap"; sourceTree = "<group>"; };
 		136D4A99CF318FA8131F9B8C20FA7EE1 /* DeviceImpressSwift.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = DeviceImpressSwift.release.xcconfig; sourceTree = "<group>"; };
 		19ACC2922EBD46343105C5EBB16248EC /* NetworkService.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = NetworkService.swift; path = DeviceImpressSwift/Classes/Network/NetworkService.swift; sourceTree = "<group>"; };
 		2154E05BD8F8CCAB5F8E6DCE53A8A7B5 /* Pods-DeviceImpressSwift_Example.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = "Pods-DeviceImpressSwift_Example.release.xcconfig"; sourceTree = "<group>"; };
-		226E4408A72DA929B399B1E6015D9A54 /* Foundation.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = Foundation.framework; path = Platforms/iPhoneOS.platform/Developer/SDKs/iPhoneOS18.0.sdk/System/Library/Frameworks/Foundation.framework; sourceTree = DEVELOPER_DIR; };
 		22763D93611F49B0B3F0F7FB80CF46C6 /* Pods-DeviceImpressSwift_Tests-dummy.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; path = "Pods-DeviceImpressSwift_Tests-dummy.m"; sourceTree = "<group>"; };
+		255D7485A7C7A2324B15F03E10ACF72E /* Foundation.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = Foundation.framework; path = Platforms/iPhoneOS.platform/Developer/SDKs/iPhoneOS18.0.sdk/System/Library/Frameworks/Foundation.framework; sourceTree = DEVELOPER_DIR; };
+		27EBB204C1FAF5D3924472936D25C3D8 /* FYLocationObjc.modulemap */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.module; path = FYLocationObjc.modulemap; sourceTree = "<group>"; };
 		2ADC5C4BEE82B2CABD18DFA241D34647 /* Pods-DeviceImpressSwift_Example-frameworks.sh */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.script.sh; path = "Pods-DeviceImpressSwift_Example-frameworks.sh"; sourceTree = "<group>"; };
 		2DDC33772184408A30170ADE02C6A06B /* DeviceImpressSwift.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = DeviceImpressSwift.debug.xcconfig; sourceTree = "<group>"; };
 		2DFF7802D7B4F735434291BF0F702DB0 /* DeviceImpressSwift */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; name = DeviceImpressSwift; path = DeviceImpressSwift.framework; sourceTree = BUILT_PRODUCTS_DIR; };
 		302C0ACA856C26863A4EF7413BE1A3CA /* Pods-DeviceImpressSwift_Example */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; name = "Pods-DeviceImpressSwift_Example"; path = Pods_DeviceImpressSwift_Example.framework; sourceTree = BUILT_PRODUCTS_DIR; };
-		403C339E8BF9E47B1C86BFAB22BDA698 /* AppTrackingTransparency.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = AppTrackingTransparency.framework; path = Platforms/iPhoneOS.platform/Developer/SDKs/iPhoneOS18.0.sdk/System/Library/Frameworks/AppTrackingTransparency.framework; sourceTree = DEVELOPER_DIR; };
 		41D3DF9159D729380EAC5F078230D77B /* DeviceService.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = DeviceService.swift; path = DeviceImpressSwift/Classes/Device/DeviceService.swift; sourceTree = "<group>"; };
+		449C0F05775F42B7AE6A69689ED7F6B5 /* AppTrackingTransparency.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = AppTrackingTransparency.framework; path = Platforms/iPhoneOS.platform/Developer/SDKs/iPhoneOS18.0.sdk/System/Library/Frameworks/AppTrackingTransparency.framework; sourceTree = DEVELOPER_DIR; };
 		45126E3C6E05EA4E37C1440C5C15CD27 /* Pods-DeviceImpressSwift_Example-acknowledgements.plist */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.plist.xml; path = "Pods-DeviceImpressSwift_Example-acknowledgements.plist"; sourceTree = "<group>"; };
+		518CDA8F2EE007322D09D4B29683CA48 /* FYLocationObjc-dummy.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; path = "FYLocationObjc-dummy.m"; sourceTree = "<group>"; };
+		52A976AEF55ACF6D5CACDAA20AD43020 /* FYLocationObjc-prefix.pch */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = "FYLocationObjc-prefix.pch"; sourceTree = "<group>"; };
 		53008A6855ED2BD3C5046D1A92A5D61A /* LICENSE */ = {isa = PBXFileReference; includeInIndex = 1; path = LICENSE; sourceTree = "<group>"; };
+		5754B5FC8A07DF902E2D185BCB791F11 /* CoreTelephony.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = CoreTelephony.framework; path = Platforms/iPhoneOS.platform/Developer/SDKs/iPhoneOS18.0.sdk/System/Library/Frameworks/CoreTelephony.framework; sourceTree = DEVELOPER_DIR; };
+		5C43EFE26D7F30350D8CE00D7D0E6F8D /* FYLocationObjc-Info.plist */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.plist.xml; path = "FYLocationObjc-Info.plist"; sourceTree = "<group>"; };
 		5D41854653834A20973AD947C684C2D5 /* Pods-DeviceImpressSwift_Example-Info.plist */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.plist.xml; path = "Pods-DeviceImpressSwift_Example-Info.plist"; sourceTree = "<group>"; };
 		6E3CB75DA46EF8E0672464D0C8B9DCB2 /* Pods-DeviceImpressSwift_Tests-acknowledgements.markdown */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text; path = "Pods-DeviceImpressSwift_Tests-acknowledgements.markdown"; sourceTree = "<group>"; };
 		71A4BCD05F11811ED87F2126614A72FE /* TimeService.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = TimeService.swift; path = DeviceImpressSwift/Classes/Time/TimeService.swift; sourceTree = "<group>"; };
@@ -74,32 +92,39 @@
 		7FFBFDD3FBBC301FEE8687340EDED008 /* StorageService.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = StorageService.swift; path = DeviceImpressSwift/Classes/Storage/StorageService.swift; sourceTree = "<group>"; };
 		87BF03DD948203EA1763AEBBF796EB21 /* README.md */ = {isa = PBXFileReference; includeInIndex = 1; path = README.md; sourceTree = "<group>"; };
 		8CA848F49680D2F6E497A0E0A8AD8E85 /* DeviceImpressSwift-prefix.pch */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = "DeviceImpressSwift-prefix.pch"; sourceTree = "<group>"; };
+		8DA04DF519C92C23C787CAA162184DC4 /* UIKit.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = UIKit.framework; path = Platforms/iPhoneOS.platform/Developer/SDKs/iPhoneOS18.0.sdk/System/Library/Frameworks/UIKit.framework; sourceTree = DEVELOPER_DIR; };
+		914728AC1682462EE7E706383968E7F7 /* FYLocationObjc.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = FYLocationObjc.debug.xcconfig; sourceTree = "<group>"; };
+		9425D484EFAA1D1C864A3E1341A6D5E2 /* FYLocationObjc */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; name = FYLocationObjc; path = FYLocationObjc.framework; sourceTree = BUILT_PRODUCTS_DIR; };
 		944BB8E99B8E05F22F9FBB7CA2BAFC8B /* Pods-DeviceImpressSwift_Example-dummy.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; path = "Pods-DeviceImpressSwift_Example-dummy.m"; sourceTree = "<group>"; };
 		9CDF418EA4E21F6CB6676F3A0EBC1C47 /* Pods-DeviceImpressSwift_Tests-acknowledgements.plist */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.plist.xml; path = "Pods-DeviceImpressSwift_Tests-acknowledgements.plist"; sourceTree = "<group>"; };
 		9D940727FF8FB9C785EB98E56350EF41 /* Podfile */ = {isa = PBXFileReference; explicitFileType = text.script.ruby; includeInIndex = 1; indentWidth = 2; lastKnownFileType = text; name = Podfile; path = ../Podfile; sourceTree = SOURCE_ROOT; tabWidth = 2; xcLanguageSpecificationIdentifier = xcode.lang.ruby; };
 		9F17774B34C2E555825EEFD4F04A7254 /* DeviceImpressSwift.modulemap */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.module; path = DeviceImpressSwift.modulemap; sourceTree = "<group>"; };
+		A96B8E95984C9C703400F98DCCD8C0F9 /* FYLocationObjc.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; name = FYLocationObjc.m; path = FYLocationObjc/Classes/FYLocationObjc.m; sourceTree = "<group>"; };
+		AEAB683150FC4F7873FFB9E5E4058C01 /* FYLocationObjc.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = FYLocationObjc.release.xcconfig; sourceTree = "<group>"; };
 		AF32378625A6B0467B6002EF089FA42B /* DeviceImpressSwift-umbrella.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = "DeviceImpressSwift-umbrella.h"; sourceTree = "<group>"; };
+		B616F8E4061240F7BAF74A7E78B497EB /* AdSupport.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = AdSupport.framework; path = Platforms/iPhoneOS.platform/Developer/SDKs/iPhoneOS18.0.sdk/System/Library/Frameworks/AdSupport.framework; sourceTree = DEVELOPER_DIR; };
 		C41FE7A5B3DCB256AC8CF12CA7689052 /* Pods-DeviceImpressSwift_Tests-umbrella.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = "Pods-DeviceImpressSwift_Tests-umbrella.h"; sourceTree = "<group>"; };
 		CD7C7E17AF962524FAF515F417EA4FA9 /* BrokenService.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = BrokenService.swift; path = DeviceImpressSwift/Classes/Broken/BrokenService.swift; sourceTree = "<group>"; };
 		D2386C3528FFCCAE2F6BBEF34665AF7C /* Pods-DeviceImpressSwift_Tests.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = "Pods-DeviceImpressSwift_Tests.release.xcconfig"; sourceTree = "<group>"; };
 		D872947848B3E84D049E930C7E0454B4 /* SystemService.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = SystemService.swift; path = DeviceImpressSwift/Classes/SystemService.swift; sourceTree = "<group>"; };
 		DC981F21BA2BA45394BEC904B8DCC823 /* Pods-DeviceImpressSwift_Example-acknowledgements.markdown */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text; path = "Pods-DeviceImpressSwift_Example-acknowledgements.markdown"; sourceTree = "<group>"; };
-		E285B393CC53185E284B4F6E011B8BC4 /* CoreTelephony.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = CoreTelephony.framework; path = Platforms/iPhoneOS.platform/Developer/SDKs/iPhoneOS18.0.sdk/System/Library/Frameworks/CoreTelephony.framework; sourceTree = DEVELOPER_DIR; };
 		E96632845296A60374D41D69447A69BC /* ImpressService.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = ImpressService.swift; path = DeviceImpressSwift/Classes/Impress/ImpressService.swift; sourceTree = "<group>"; };
+		EB1E44F1BFDFFD63E4068FE6C23D5B15 /* CoreLocation.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = CoreLocation.framework; path = Platforms/iPhoneOS.platform/Developer/SDKs/iPhoneOS18.0.sdk/System/Library/Frameworks/CoreLocation.framework; sourceTree = DEVELOPER_DIR; };
 		F0A18A3DA5628C4D925B7B3F118C68BD /* Pods-DeviceImpressSwift_Tests-Info.plist */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.plist.xml; path = "Pods-DeviceImpressSwift_Tests-Info.plist"; sourceTree = "<group>"; };
-		F1E5E99189911024A47CA9D83EA37BB0 /* AdSupport.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = AdSupport.framework; path = Platforms/iPhoneOS.platform/Developer/SDKs/iPhoneOS18.0.sdk/System/Library/Frameworks/AdSupport.framework; sourceTree = DEVELOPER_DIR; };
 		F4346975A7220699440487DC2BF1D94F /* Pods-DeviceImpressSwift_Tests.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = "Pods-DeviceImpressSwift_Tests.debug.xcconfig"; sourceTree = "<group>"; };
 		FBEBEFA1A589D596529B7AA6820C89CA /* Pods-DeviceImpressSwift_Example.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = "Pods-DeviceImpressSwift_Example.debug.xcconfig"; sourceTree = "<group>"; };
+		FF1E00C678204720E57AABF5A7B1E9A7 /* FYLocationObjc-umbrella.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = "FYLocationObjc-umbrella.h"; sourceTree = "<group>"; };
 		FF506735A5438D0DABF8559F6FD2C111 /* Pods-DeviceImpressSwift_Example-umbrella.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = "Pods-DeviceImpressSwift_Example-umbrella.h"; sourceTree = "<group>"; };
 		FF771F881D5DCA254C504CE306D53FC4 /* Pods-DeviceImpressSwift_Tests.modulemap */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.module; path = "Pods-DeviceImpressSwift_Tests.modulemap"; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
-		2092A2C0863F0A6AE0FAAA254EED687B /* Frameworks */ = {
+		385E1ABF2EDB1073547EF9F8B29A5D7D /* Frameworks */ = {
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				19F7DAC1AAE05EF7F165CB0A322078D4 /* Foundation.framework in Frameworks */,
+				9C7E8D8933A1831060852D7635ABE8EE /* CoreLocation.framework in Frameworks */,
+				F874EC4A4BBDABA4C5013B03B29A26E4 /* Foundation.framework in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -112,6 +137,14 @@
 				0E518E95357C504D54F93B99EB0C762B /* CoreTelephony.framework in Frameworks */,
 				217F5904D94EE9CDF0AFA04B1A1E692D /* Foundation.framework in Frameworks */,
 				EE895AD184214506E59640A20A931380 /* UIKit.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		C89FB2DA106864343DFA8B79A9E5400D /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				72BCF0A8097087F08F392A9F0533D663 /* Foundation.framework in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -151,16 +184,6 @@
 			name = Time;
 			sourceTree = "<group>";
 		};
-		4039A4E0D2E529B5DE0F7706AC2F7EC8 /* Products */ = {
-			isa = PBXGroup;
-			children = (
-				2DFF7802D7B4F735434291BF0F702DB0 /* DeviceImpressSwift */,
-				302C0ACA856C26863A4EF7413BE1A3CA /* Pods-DeviceImpressSwift_Example */,
-				7C8E4D4A27EB9F208F09ADF9E1467DA5 /* Pods-DeviceImpressSwift_Tests */,
-			);
-			name = Products;
-			sourceTree = "<group>";
-		};
 		48857A22E972DBCBCCF0E3AABA2016A8 /* Broken */ = {
 			isa = PBXGroup;
 			children = (
@@ -194,12 +217,31 @@
 			name = Impress;
 			sourceTree = "<group>";
 		};
+		5E46136936151FDE7A976AF25B39A987 /* FYLocationObjc */ = {
+			isa = PBXGroup;
+			children = (
+				04C4D9EA6AC6D747699CA378889A88BA /* FYLocationObjc.h */,
+				A96B8E95984C9C703400F98DCCD8C0F9 /* FYLocationObjc.m */,
+				DD1EFFB540E2E917974DAFEFC7563A13 /* Support Files */,
+			);
+			name = FYLocationObjc;
+			path = FYLocationObjc;
+			sourceTree = "<group>";
+		};
 		69443F3E9DA83D159024C90440EEF2AC /* Storage */ = {
 			isa = PBXGroup;
 			children = (
 				7FFBFDD3FBBC301FEE8687340EDED008 /* StorageService.swift */,
 			);
 			name = Storage;
+			sourceTree = "<group>";
+		};
+		72E4D97907DADDE078E98F1B0E32E2B7 /* Pods */ = {
+			isa = PBXGroup;
+			children = (
+				5E46136936151FDE7A976AF25B39A987 /* FYLocationObjc */,
+			);
+			name = Pods;
 			sourceTree = "<group>";
 		};
 		775D3A7B319F7B40CBDA158626E116BB /* Targets Support Files */ = {
@@ -229,24 +271,15 @@
 			name = Pod;
 			sourceTree = "<group>";
 		};
-		A42C68AB88EAD63A3C636635EF7D3A82 /* iOS */ = {
+		A846E78DC34E98DC2688972E929E9ACA /* Products */ = {
 			isa = PBXGroup;
 			children = (
-				F1E5E99189911024A47CA9D83EA37BB0 /* AdSupport.framework */,
-				403C339E8BF9E47B1C86BFAB22BDA698 /* AppTrackingTransparency.framework */,
-				E285B393CC53185E284B4F6E011B8BC4 /* CoreTelephony.framework */,
-				226E4408A72DA929B399B1E6015D9A54 /* Foundation.framework */,
-				043D1A4E62587C2EB0553056A03D9206 /* UIKit.framework */,
+				2DFF7802D7B4F735434291BF0F702DB0 /* DeviceImpressSwift */,
+				9425D484EFAA1D1C864A3E1341A6D5E2 /* FYLocationObjc */,
+				302C0ACA856C26863A4EF7413BE1A3CA /* Pods-DeviceImpressSwift_Example */,
+				7C8E4D4A27EB9F208F09ADF9E1467DA5 /* Pods-DeviceImpressSwift_Tests */,
 			);
-			name = iOS;
-			sourceTree = "<group>";
-		};
-		B94D7768568A9992200DB461E8CF687F /* Frameworks */ = {
-			isa = PBXGroup;
-			children = (
-				A42C68AB88EAD63A3C636635EF7D3A82 /* iOS */,
-			);
-			name = Frameworks;
+			name = Products;
 			sourceTree = "<group>";
 		};
 		BBC24559356F35E49631843B86A589CA /* Support Files */ = {
@@ -294,10 +327,47 @@
 			children = (
 				9D940727FF8FB9C785EB98E56350EF41 /* Podfile */,
 				E544485B12B9E7074AC26749F4709EC1 /* Development Pods */,
-				B94D7768568A9992200DB461E8CF687F /* Frameworks */,
-				4039A4E0D2E529B5DE0F7706AC2F7EC8 /* Products */,
+				D68CA58901FBF589D75F5E40F1EAF5BA /* Frameworks */,
+				72E4D97907DADDE078E98F1B0E32E2B7 /* Pods */,
+				A846E78DC34E98DC2688972E929E9ACA /* Products */,
 				775D3A7B319F7B40CBDA158626E116BB /* Targets Support Files */,
 			);
+			sourceTree = "<group>";
+		};
+		D2966C32AA37A6A9BECC1E8435F88AF3 /* iOS */ = {
+			isa = PBXGroup;
+			children = (
+				B616F8E4061240F7BAF74A7E78B497EB /* AdSupport.framework */,
+				449C0F05775F42B7AE6A69689ED7F6B5 /* AppTrackingTransparency.framework */,
+				EB1E44F1BFDFFD63E4068FE6C23D5B15 /* CoreLocation.framework */,
+				5754B5FC8A07DF902E2D185BCB791F11 /* CoreTelephony.framework */,
+				255D7485A7C7A2324B15F03E10ACF72E /* Foundation.framework */,
+				8DA04DF519C92C23C787CAA162184DC4 /* UIKit.framework */,
+			);
+			name = iOS;
+			sourceTree = "<group>";
+		};
+		D68CA58901FBF589D75F5E40F1EAF5BA /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				D2966C32AA37A6A9BECC1E8435F88AF3 /* iOS */,
+			);
+			name = Frameworks;
+			sourceTree = "<group>";
+		};
+		DD1EFFB540E2E917974DAFEFC7563A13 /* Support Files */ = {
+			isa = PBXGroup;
+			children = (
+				27EBB204C1FAF5D3924472936D25C3D8 /* FYLocationObjc.modulemap */,
+				518CDA8F2EE007322D09D4B29683CA48 /* FYLocationObjc-dummy.m */,
+				5C43EFE26D7F30350D8CE00D7D0E6F8D /* FYLocationObjc-Info.plist */,
+				52A976AEF55ACF6D5CACDAA20AD43020 /* FYLocationObjc-prefix.pch */,
+				FF1E00C678204720E57AABF5A7B1E9A7 /* FYLocationObjc-umbrella.h */,
+				914728AC1682462EE7E706383968E7F7 /* FYLocationObjc.debug.xcconfig */,
+				AEAB683150FC4F7873FFB9E5E4058C01 /* FYLocationObjc.release.xcconfig */,
+			);
+			name = "Support Files";
+			path = "../Target Support Files/FYLocationObjc";
 			sourceTree = "<group>";
 		};
 		E544485B12B9E7074AC26749F4709EC1 /* Development Pods */ = {
@@ -327,30 +397,58 @@
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
-		987FAD16B91935CB281DF3AB116EB536 /* Headers */ = {
+		6A8C752E138371D09E2656290F690B0A /* Headers */ = {
 			isa = PBXHeadersBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				D5DBD6857D5B0705CF756C95EFB9CB30 /* Pods-DeviceImpressSwift_Example-umbrella.h in Headers */,
+				7D522889D1A3C0472435463E3A4BCB5E /* FYLocationObjc.h in Headers */,
+				84AB59EFE0D90ADAE932B37460DB230D /* FYLocationObjc-umbrella.h in Headers */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		CAE49F88FF2B00CA4698FBDEFBD8888F /* Headers */ = {
+			isa = PBXHeadersBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				FAA30D3C38D72654D7A4DEE1BED3AABF /* Pods-DeviceImpressSwift_Example-umbrella.h in Headers */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
 /* End PBXHeadersBuildPhase section */
 
 /* Begin PBXNativeTarget section */
-		8B8F0726102CB96C9E958AD51A3B2804 /* Pods-DeviceImpressSwift_Example */ = {
+		854981F0ED3681026E6E961DAFE9FFBD /* FYLocationObjc */ = {
 			isa = PBXNativeTarget;
-			buildConfigurationList = AC516595DFBD8FF8D3C6634F245D4730 /* Build configuration list for PBXNativeTarget "Pods-DeviceImpressSwift_Example" */;
+			buildConfigurationList = 50B51A6ADAAB820116839FD44CAB9DED /* Build configuration list for PBXNativeTarget "FYLocationObjc" */;
 			buildPhases = (
-				987FAD16B91935CB281DF3AB116EB536 /* Headers */,
-				32DB685C6C2A1711A634D38B353C4F91 /* Sources */,
-				2092A2C0863F0A6AE0FAAA254EED687B /* Frameworks */,
-				844A75C0A4D95E1C1D0E20B27AC727FF /* Resources */,
+				6A8C752E138371D09E2656290F690B0A /* Headers */,
+				692D3CE5273616C154F7E36A56C0A03C /* Sources */,
+				385E1ABF2EDB1073547EF9F8B29A5D7D /* Frameworks */,
+				BB076EAC5D574C417DE2D53AC46736E3 /* Resources */,
 			);
 			buildRules = (
 			);
 			dependencies = (
-				3A37110F7104B59DF8B6ABDE05DBDE71 /* PBXTargetDependency */,
+			);
+			name = FYLocationObjc;
+			productName = FYLocationObjc;
+			productReference = 9425D484EFAA1D1C864A3E1341A6D5E2 /* FYLocationObjc */;
+			productType = "com.apple.product-type.framework";
+		};
+		8B8F0726102CB96C9E958AD51A3B2804 /* Pods-DeviceImpressSwift_Example */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 5D5817FCD823AAAFAC85A641ED7F32BC /* Build configuration list for PBXNativeTarget "Pods-DeviceImpressSwift_Example" */;
+			buildPhases = (
+				CAE49F88FF2B00CA4698FBDEFBD8888F /* Headers */,
+				A9D3BBD1655D5FCC6821752C96522105 /* Sources */,
+				C89FB2DA106864343DFA8B79A9E5400D /* Frameworks */,
+				1FACBD6B2A30B4BB41939A0C817A21D6 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				04872EB22C997618861D730386BA19A9 /* PBXTargetDependency */,
+				852A78301F0693974A71C7863F91BC95 /* PBXTargetDependency */,
 			);
 			name = "Pods-DeviceImpressSwift_Example";
 			productName = Pods_DeviceImpressSwift_Example;
@@ -387,7 +485,7 @@
 			buildRules = (
 			);
 			dependencies = (
-				B51B46064944734C1061D6170E252955 /* PBXTargetDependency */,
+				D873E523AD1E711D05B240270D5B2D65 /* PBXTargetDependency */,
 			);
 			name = "Pods-DeviceImpressSwift_Tests";
 			productName = Pods_DeviceImpressSwift_Tests;
@@ -414,11 +512,12 @@
 			mainGroup = CF1408CF629C7361332E53B88F7BD30C;
 			minimizedProjectReferenceProxies = 0;
 			preferredProjectObjectVersion = 77;
-			productRefGroup = 4039A4E0D2E529B5DE0F7706AC2F7EC8 /* Products */;
+			productRefGroup = A846E78DC34E98DC2688972E929E9ACA /* Products */;
 			projectDirPath = "";
 			projectRoot = "";
 			targets = (
 				ECC87AF4CC377B1F4D2650416A5556E5 /* DeviceImpressSwift */,
+				854981F0ED3681026E6E961DAFE9FFBD /* FYLocationObjc */,
 				8B8F0726102CB96C9E958AD51A3B2804 /* Pods-DeviceImpressSwift_Example */,
 				FD12F5FFA2E3E6488299C53BAD38FB3A /* Pods-DeviceImpressSwift_Tests */,
 			);
@@ -426,6 +525,13 @@
 /* End PBXProject section */
 
 /* Begin PBXResourcesBuildPhase section */
+		1FACBD6B2A30B4BB41939A0C817A21D6 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
 		22F189361B559148DDE5FBA5AC6E888C /* Resources */ = {
 			isa = PBXResourcesBuildPhase;
 			buildActionMask = 2147483647;
@@ -440,7 +546,7 @@
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
-		844A75C0A4D95E1C1D0E20B27AC727FF /* Resources */ = {
+		BB076EAC5D574C417DE2D53AC46736E3 /* Resources */ = {
 			isa = PBXResourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
@@ -450,14 +556,6 @@
 /* End PBXResourcesBuildPhase section */
 
 /* Begin PBXSourcesBuildPhase section */
-		32DB685C6C2A1711A634D38B353C4F91 /* Sources */ = {
-			isa = PBXSourcesBuildPhase;
-			buildActionMask = 2147483647;
-			files = (
-				3724D1FE8664ACFE00A93A9C4D3F8E30 /* Pods-DeviceImpressSwift_Example-dummy.m in Sources */,
-			);
-			runOnlyForDeploymentPostprocessing = 0;
-		};
 		609B3B400FDB86E8D3FED0AF7C7DB910 /* Sources */ = {
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
@@ -482,24 +580,126 @@
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
+		692D3CE5273616C154F7E36A56C0A03C /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				799D8C2E1AB2F31FB61BDCD4169EE39C /* FYLocationObjc.m in Sources */,
+				562C9F4B9F93BA8F0540A6A54923ECAE /* FYLocationObjc-dummy.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		A9D3BBD1655D5FCC6821752C96522105 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				74C29BFC4222D16CE324CC76050C3F23 /* Pods-DeviceImpressSwift_Example-dummy.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
 /* End PBXSourcesBuildPhase section */
 
 /* Begin PBXTargetDependency section */
-		3A37110F7104B59DF8B6ABDE05DBDE71 /* PBXTargetDependency */ = {
+		04872EB22C997618861D730386BA19A9 /* PBXTargetDependency */ = {
 			isa = PBXTargetDependency;
 			name = DeviceImpressSwift;
 			target = ECC87AF4CC377B1F4D2650416A5556E5 /* DeviceImpressSwift */;
-			targetProxy = DB66ED30965C91FA31792C21750B635A /* PBXContainerItemProxy */;
+			targetProxy = 147C4096E9F85975E9BA72A87D17A047 /* PBXContainerItemProxy */;
 		};
-		B51B46064944734C1061D6170E252955 /* PBXTargetDependency */ = {
+		852A78301F0693974A71C7863F91BC95 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			name = FYLocationObjc;
+			target = 854981F0ED3681026E6E961DAFE9FFBD /* FYLocationObjc */;
+			targetProxy = F63EABE1AB4C76E169D5AD7C437DFB70 /* PBXContainerItemProxy */;
+		};
+		D873E523AD1E711D05B240270D5B2D65 /* PBXTargetDependency */ = {
 			isa = PBXTargetDependency;
 			name = "Pods-DeviceImpressSwift_Example";
 			target = 8B8F0726102CB96C9E958AD51A3B2804 /* Pods-DeviceImpressSwift_Example */;
-			targetProxy = D005F30FED59E0F12AB4132E7E90A3BE /* PBXContainerItemProxy */;
+			targetProxy = 7EAA1007433F7D94FA20B2EEF0B0F144 /* PBXContainerItemProxy */;
 		};
 /* End PBXTargetDependency section */
 
 /* Begin XCBuildConfiguration section */
+		0AC0CDB22EE762AE4FAC2873E43CB624 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = FBEBEFA1A589D596529B7AA6820C89CA /* Pods-DeviceImpressSwift_Example.debug.xcconfig */;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = NO;
+				CLANG_ENABLE_OBJC_WEAK = NO;
+				"CODE_SIGN_IDENTITY[sdk=appletvos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=watchos*]" = "";
+				CURRENT_PROJECT_VERSION = 1;
+				DEFINES_MODULE = YES;
+				DYLIB_COMPATIBILITY_VERSION = 1;
+				DYLIB_CURRENT_VERSION = 1;
+				DYLIB_INSTALL_NAME_BASE = "@rpath";
+				ENABLE_MODULE_VERIFIER = NO;
+				ENABLE_USER_SCRIPT_SANDBOXING = NO;
+				INFOPLIST_FILE = "Target Support Files/Pods-DeviceImpressSwift_Example/Pods-DeviceImpressSwift_Example-Info.plist";
+				INSTALL_PATH = "$(LOCAL_LIBRARY_DIR)/Frameworks";
+				IPHONEOS_DEPLOYMENT_TARGET = 15.0;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+					"@loader_path/Frameworks",
+				);
+				MACH_O_TYPE = staticlib;
+				MODULEMAP_FILE = "Target Support Files/Pods-DeviceImpressSwift_Example/Pods-DeviceImpressSwift_Example.modulemap";
+				OTHER_LDFLAGS = "";
+				OTHER_LIBTOOLFLAGS = "";
+				PODS_ROOT = "$(SRCROOT)";
+				PRODUCT_BUNDLE_IDENTIFIER = "org.cocoapods.${PRODUCT_NAME:rfc1034identifier}";
+				PRODUCT_NAME = "$(TARGET_NAME:c99extidentifier)";
+				SDKROOT = iphoneos;
+				SKIP_INSTALL = YES;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				VERSIONING_SYSTEM = "apple-generic";
+				VERSION_INFO_PREFIX = "";
+			};
+			name = Debug;
+		};
+		343DD60F55F435EA96FE35C91E4B9AE8 /* Release */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = 2154E05BD8F8CCAB5F8E6DCE53A8A7B5 /* Pods-DeviceImpressSwift_Example.release.xcconfig */;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = NO;
+				CLANG_ENABLE_OBJC_WEAK = NO;
+				"CODE_SIGN_IDENTITY[sdk=appletvos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=watchos*]" = "";
+				CURRENT_PROJECT_VERSION = 1;
+				DEFINES_MODULE = YES;
+				DYLIB_COMPATIBILITY_VERSION = 1;
+				DYLIB_CURRENT_VERSION = 1;
+				DYLIB_INSTALL_NAME_BASE = "@rpath";
+				ENABLE_MODULE_VERIFIER = NO;
+				ENABLE_USER_SCRIPT_SANDBOXING = NO;
+				INFOPLIST_FILE = "Target Support Files/Pods-DeviceImpressSwift_Example/Pods-DeviceImpressSwift_Example-Info.plist";
+				INSTALL_PATH = "$(LOCAL_LIBRARY_DIR)/Frameworks";
+				IPHONEOS_DEPLOYMENT_TARGET = 15.0;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+					"@loader_path/Frameworks",
+				);
+				MACH_O_TYPE = staticlib;
+				MODULEMAP_FILE = "Target Support Files/Pods-DeviceImpressSwift_Example/Pods-DeviceImpressSwift_Example.modulemap";
+				OTHER_LDFLAGS = "";
+				OTHER_LIBTOOLFLAGS = "";
+				PODS_ROOT = "$(SRCROOT)";
+				PRODUCT_BUNDLE_IDENTIFIER = "org.cocoapods.${PRODUCT_NAME:rfc1034identifier}";
+				PRODUCT_NAME = "$(TARGET_NAME:c99extidentifier)";
+				SDKROOT = iphoneos;
+				SKIP_INSTALL = YES;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				VALIDATE_PRODUCT = YES;
+				VERSIONING_SYSTEM = "apple-generic";
+				VERSION_INFO_PREFIX = "";
+			};
+			name = Release;
+		};
 		53E32527D327C227DCE07E14C90BBB74 /* Release */ = {
 			isa = XCBuildConfiguration;
 			baseConfigurationReference = D2386C3528FFCCAE2F6BBEF34665AF7C /* Pods-DeviceImpressSwift_Tests.release.xcconfig */;
@@ -540,11 +740,10 @@
 			};
 			name = Release;
 		};
-		5CB41CB2BC92788193552150401548E1 /* Release */ = {
+		72CB9A0E7769147336A262CD77E25DDF /* Debug */ = {
 			isa = XCBuildConfiguration;
-			baseConfigurationReference = 2154E05BD8F8CCAB5F8E6DCE53A8A7B5 /* Pods-DeviceImpressSwift_Example.release.xcconfig */;
+			baseConfigurationReference = 914728AC1682462EE7E706383968E7F7 /* FYLocationObjc.debug.xcconfig */;
 			buildSettings = {
-				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = NO;
 				CLANG_ENABLE_OBJC_WEAK = NO;
 				"CODE_SIGN_IDENTITY[sdk=appletvos*]" = "";
 				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "";
@@ -556,7 +755,9 @@
 				DYLIB_INSTALL_NAME_BASE = "@rpath";
 				ENABLE_MODULE_VERIFIER = NO;
 				ENABLE_USER_SCRIPT_SANDBOXING = NO;
-				INFOPLIST_FILE = "Target Support Files/Pods-DeviceImpressSwift_Example/Pods-DeviceImpressSwift_Example-Info.plist";
+				GCC_PREFIX_HEADER = "Target Support Files/FYLocationObjc/FYLocationObjc-prefix.pch";
+				GENERATE_INFOPLIST_FILE = NO;
+				INFOPLIST_FILE = "Target Support Files/FYLocationObjc/FYLocationObjc-Info.plist";
 				INSTALL_PATH = "$(LOCAL_LIBRARY_DIR)/Frameworks";
 				IPHONEOS_DEPLOYMENT_TARGET = 15.0;
 				LD_RUNPATH_SEARCH_PATHS = (
@@ -564,21 +765,19 @@
 					"@executable_path/Frameworks",
 					"@loader_path/Frameworks",
 				);
-				MACH_O_TYPE = staticlib;
-				MODULEMAP_FILE = "Target Support Files/Pods-DeviceImpressSwift_Example/Pods-DeviceImpressSwift_Example.modulemap";
-				OTHER_LDFLAGS = "";
-				OTHER_LIBTOOLFLAGS = "";
-				PODS_ROOT = "$(SRCROOT)";
-				PRODUCT_BUNDLE_IDENTIFIER = "org.cocoapods.${PRODUCT_NAME:rfc1034identifier}";
-				PRODUCT_NAME = "$(TARGET_NAME:c99extidentifier)";
+				MODULEMAP_FILE = "Target Support Files/FYLocationObjc/FYLocationObjc.modulemap";
+				PRODUCT_MODULE_NAME = FYLocationObjc;
+				PRODUCT_NAME = FYLocationObjc;
 				SDKROOT = iphoneos;
 				SKIP_INSTALL = YES;
+				SWIFT_ACTIVE_COMPILATION_CONDITIONS = "$(inherited) ";
+				SWIFT_INSTALL_OBJC_HEADER = YES;
+				SWIFT_VERSION = 5.0;
 				TARGETED_DEVICE_FAMILY = "1,2";
-				VALIDATE_PRODUCT = YES;
 				VERSIONING_SYSTEM = "apple-generic";
 				VERSION_INFO_PREFIX = "";
 			};
-			name = Release;
+			name = Debug;
 		};
 		8E79D558A2BA4772526FE5CE1A225489 /* Debug */ = {
 			isa = XCBuildConfiguration;
@@ -787,45 +986,6 @@
 			};
 			name = Release;
 		};
-		E130B69F2943EDB75F38A99AF4CAD0D9 /* Debug */ = {
-			isa = XCBuildConfiguration;
-			baseConfigurationReference = FBEBEFA1A589D596529B7AA6820C89CA /* Pods-DeviceImpressSwift_Example.debug.xcconfig */;
-			buildSettings = {
-				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = NO;
-				CLANG_ENABLE_OBJC_WEAK = NO;
-				"CODE_SIGN_IDENTITY[sdk=appletvos*]" = "";
-				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "";
-				"CODE_SIGN_IDENTITY[sdk=watchos*]" = "";
-				CURRENT_PROJECT_VERSION = 1;
-				DEFINES_MODULE = YES;
-				DYLIB_COMPATIBILITY_VERSION = 1;
-				DYLIB_CURRENT_VERSION = 1;
-				DYLIB_INSTALL_NAME_BASE = "@rpath";
-				ENABLE_MODULE_VERIFIER = NO;
-				ENABLE_USER_SCRIPT_SANDBOXING = NO;
-				INFOPLIST_FILE = "Target Support Files/Pods-DeviceImpressSwift_Example/Pods-DeviceImpressSwift_Example-Info.plist";
-				INSTALL_PATH = "$(LOCAL_LIBRARY_DIR)/Frameworks";
-				IPHONEOS_DEPLOYMENT_TARGET = 15.0;
-				LD_RUNPATH_SEARCH_PATHS = (
-					"$(inherited)",
-					"@executable_path/Frameworks",
-					"@loader_path/Frameworks",
-				);
-				MACH_O_TYPE = staticlib;
-				MODULEMAP_FILE = "Target Support Files/Pods-DeviceImpressSwift_Example/Pods-DeviceImpressSwift_Example.modulemap";
-				OTHER_LDFLAGS = "";
-				OTHER_LIBTOOLFLAGS = "";
-				PODS_ROOT = "$(SRCROOT)";
-				PRODUCT_BUNDLE_IDENTIFIER = "org.cocoapods.${PRODUCT_NAME:rfc1034identifier}";
-				PRODUCT_NAME = "$(TARGET_NAME:c99extidentifier)";
-				SDKROOT = iphoneos;
-				SKIP_INSTALL = YES;
-				TARGETED_DEVICE_FAMILY = "1,2";
-				VERSIONING_SYSTEM = "apple-generic";
-				VERSION_INFO_PREFIX = "";
-			};
-			name = Debug;
-		};
 		E1AB2E4976E76BFA6EB83193C11F0C52 /* Debug */ = {
 			isa = XCBuildConfiguration;
 			baseConfigurationReference = F4346975A7220699440487DC2BF1D94F /* Pods-DeviceImpressSwift_Tests.debug.xcconfig */;
@@ -865,6 +1025,46 @@
 			};
 			name = Debug;
 		};
+		EAE4C475B09580269FCB71D66B8A1C78 /* Release */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = AEAB683150FC4F7873FFB9E5E4058C01 /* FYLocationObjc.release.xcconfig */;
+			buildSettings = {
+				CLANG_ENABLE_OBJC_WEAK = NO;
+				"CODE_SIGN_IDENTITY[sdk=appletvos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=watchos*]" = "";
+				CURRENT_PROJECT_VERSION = 1;
+				DEFINES_MODULE = YES;
+				DYLIB_COMPATIBILITY_VERSION = 1;
+				DYLIB_CURRENT_VERSION = 1;
+				DYLIB_INSTALL_NAME_BASE = "@rpath";
+				ENABLE_MODULE_VERIFIER = NO;
+				ENABLE_USER_SCRIPT_SANDBOXING = NO;
+				GCC_PREFIX_HEADER = "Target Support Files/FYLocationObjc/FYLocationObjc-prefix.pch";
+				GENERATE_INFOPLIST_FILE = NO;
+				INFOPLIST_FILE = "Target Support Files/FYLocationObjc/FYLocationObjc-Info.plist";
+				INSTALL_PATH = "$(LOCAL_LIBRARY_DIR)/Frameworks";
+				IPHONEOS_DEPLOYMENT_TARGET = 15.0;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+					"@loader_path/Frameworks",
+				);
+				MODULEMAP_FILE = "Target Support Files/FYLocationObjc/FYLocationObjc.modulemap";
+				PRODUCT_MODULE_NAME = FYLocationObjc;
+				PRODUCT_NAME = FYLocationObjc;
+				SDKROOT = iphoneos;
+				SKIP_INSTALL = YES;
+				SWIFT_ACTIVE_COMPILATION_CONDITIONS = "$(inherited) ";
+				SWIFT_INSTALL_OBJC_HEADER = YES;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				VALIDATE_PRODUCT = YES;
+				VERSIONING_SYSTEM = "apple-generic";
+				VERSION_INFO_PREFIX = "";
+			};
+			name = Release;
+		};
 /* End XCBuildConfiguration section */
 
 /* Begin XCConfigurationList section */
@@ -877,11 +1077,20 @@
 			defaultConfigurationIsVisible = 0;
 			defaultConfigurationName = Release;
 		};
-		AC516595DFBD8FF8D3C6634F245D4730 /* Build configuration list for PBXNativeTarget "Pods-DeviceImpressSwift_Example" */ = {
+		50B51A6ADAAB820116839FD44CAB9DED /* Build configuration list for PBXNativeTarget "FYLocationObjc" */ = {
 			isa = XCConfigurationList;
 			buildConfigurations = (
-				E130B69F2943EDB75F38A99AF4CAD0D9 /* Debug */,
-				5CB41CB2BC92788193552150401548E1 /* Release */,
+				72CB9A0E7769147336A262CD77E25DDF /* Debug */,
+				EAE4C475B09580269FCB71D66B8A1C78 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		5D5817FCD823AAAFAC85A641ED7F32BC /* Build configuration list for PBXNativeTarget "Pods-DeviceImpressSwift_Example" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				0AC0CDB22EE762AE4FAC2873E43CB624 /* Debug */,
+				343DD60F55F435EA96FE35C91E4B9AE8 /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
 			defaultConfigurationName = Release;

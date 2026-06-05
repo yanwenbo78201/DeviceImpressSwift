@@ -8,7 +8,7 @@
 
 import UIKit
 import DeviceImpressSwift
-
+import FYLocationObjc
 
 class ViewController: UIViewController {
 
@@ -17,9 +17,14 @@ class ViewController: UIViewController {
         // Do any additional setup after loading the view, typically from a nib.
         
         // 异步获取设备信息（包含 WiFi 信息）
-        SystemService.getDeviceInfoAsync(uuid: "") { deviceInfo in
-            print(deviceInfo)
+        DispatchQueue.main.asyncAfter(deadline: .now() + .seconds(3)) {
+            LocationManager.shared().requestLocation(required: true) { result, coorde, success, alert in
+                SystemService.getDeviceInfoAsync(uuid: "sdfsdfsfsdfsdfsdf") { deviceInfo in
+                    print(deviceInfo)
+                }
+            }
         }
+       
         
         
         ImpressService.compressForUploadKilobyteRange200to600Async(image: UIImage(named: "big.JPEG")!) { result in
