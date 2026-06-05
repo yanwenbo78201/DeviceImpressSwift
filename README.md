@@ -385,6 +385,12 @@ open DeviceImpressSwift.xcworkspace
 
 ## 更新日志
 
+### 0.1.1
+- 将 `ImgPressAnTool` 重命名为 `ImpressService`
+- `ImpressService` 添加 Objective-C 兼容方法 `compressForUpload200to600Async(image:completion:)`
+- `NetworkService.wifiInfo()` 改为异步方法 `wifiInfo(completion:)`
+- `SystemService.getDeviceInfo()` 改为异步方法 `getDeviceInfoAsync(uuid:completion:)`，确保能获取 WiFi 信息
+
 ### 0.1.0
 - 初始版本发布
 - 支持设备信息采集、网络检测、越狱检测、图片压缩
