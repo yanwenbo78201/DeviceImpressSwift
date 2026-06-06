@@ -105,6 +105,16 @@ SystemService.getDeviceInfoAsync(uuid: "your-uuid-here") { deviceInfo in
     // screenBrightness, cashTotal, cashCanUse, rooted
     print(deviceInfo)
 }
+
+// 异步获取设备信息（不含 uuid，包含 WiFi 信息）
+SystemService.getDeviceInfoAsyncWithOutUuid { deviceInfo in
+    print(deviceInfo)
+}
+
+// 同步获取设备信息（不含 WiFi 信息）
+let deviceInfo = SystemService.getDeviceInfoDataSyncWithOutWifi(uuid: "your-uuid")
+// 或
+let deviceInfoNoUuid = SystemService.getDeviceInfoDataSyncWithOutWifi()
 ```
 
 ### 设备信息服务
@@ -277,6 +287,9 @@ if case .success(let output) = result {
 | 方法 | 返回值 | 说明 |
 |------|--------|------|
 | `getDeviceInfoAsync(uuid:completion:)` | `Void` | 异步获取完整设备信息字典（包含 WiFi 信息） |
+| `getDeviceInfoAsyncWithOutUuid(completion:)` | `Void` | 异步获取设备信息字典（不含 uuid，包含 WiFi 信息） |
+| `getDeviceInfoDataSyncWithOutWifi(uuid:)` | `[String: String]` | 同步获取设备信息（不含 WiFi 信息，带 uuid） |
+| `getDeviceInfoDataSyncWithOutWifi()` | `[String: String]` | 同步获取设备信息（不含 WiFi 信息，不带 uuid） |
 
 ### DeviceService
 
